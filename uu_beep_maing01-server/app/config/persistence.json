@@ -6,9 +6,6 @@
       "schemaMap": {
         "beepMain": {
           "realization": "dao/BeepMainMongo"
-        },
-        "subscribe": {
-          "realization": "dao/SubscribeMongo"
         }
       }
     }
