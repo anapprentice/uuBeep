@@ -28,6 +28,11 @@
         "realization": "api/controllers/SubscriptionController.get",
         "httpMethod": "GET",
         "type": "CMD"
+      },
+      "connection/list": {
+        "realization": "api/controllers/ConnectionController.list",
+        "httpMethod": "GET",
+        "type": "CMD"
       }
     }
   },

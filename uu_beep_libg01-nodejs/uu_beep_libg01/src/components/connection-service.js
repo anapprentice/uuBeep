@@ -23,21 +23,13 @@ class ConnectionService {
     const awid = ucEnv.getUri().getAwid();
     const session = ucEnv.getSession();
 
-    await this.dao.createSchema();
-
     const uid = session.getIdentity().getUuIdentity();
 
     if (uid === "0-0") {
       return {};
     }
 
-    try {
-      await this.dao.create({ awid, uid });
-    } catch (e) {
-      if (e.code !== "uu-app-objectstore/duplicateKey") {
-        throw e;
-      }
-    }
+    await this.dao.create({ awid, uid });
 
     return { awid, uid };
   }

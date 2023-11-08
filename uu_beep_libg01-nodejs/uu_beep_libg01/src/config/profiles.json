@@ -25,6 +25,10 @@
       "subscription/get": {
         "sysStateList": ["active"],
         "profileList": ["Public"]
+      },
+      "connection/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
       }
     }
   }

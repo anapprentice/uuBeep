@@ -2,14 +2,17 @@
 const { UuObjectDao } = require("uu_appg01_server").ObjectStore;
 
 class ConnectionMongo extends UuObjectDao {
-  // ttl indexy
+  // todo: ttl indexy
   async createSchema() {
     await super.createIndex({ awid: 1 });
-    await super.createIndex({ awid: 1, uid: 1 }, { unique: true });
   }
 
   async create(uuObject) {
     return await super.insertOne(uuObject);
+  }
+
+  async list(awid, pageInfo) {
+    return await super.find({ awid }, pageInfo || {});
   }
 
   async remove(uuObject) {
