@@ -1,0 +1,8 @@
+{
+  "subscription": {
+    "realizationMap": {
+      "MongoDB": "uu_beep_libg01:dao/SubscriptionMongo"
+    },
+    "maxNoi": 10000
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "{vendor}-{uuApp}-{uuSubApp}": {
+    "useCaseMap": {
+      "eventSource/initiate": {
+        "realization": "api/controllers/EventSourceController.initiate",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "eventSource/broadcast": {
+        "realization": "api/controllers/EventSourceController.broadcast",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "subscription/create": {
+        "realization": "api/controllers/SubscriptionController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "subscription/delete": {
+        "realization": "api/controllers/SubscriptionController.delete",
+        "httpMethod": "POST",
+        "type": "CMD"
+      },
+      "subscription/get": {
+        "realization": "api/controllers/SubscriptionController.get",
+        "httpMethod": "GET",
+        "type": "CMD"
+      }
+    }
+  },
+  "{product}": {
+    "useCaseMap": {}
+  }
+}

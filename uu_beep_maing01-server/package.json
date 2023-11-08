@@ -6,7 +6,8 @@
   "spec": "nodejs-app; uu_appg01_devkit@5.17.0",
   "dependencies": {
     "uu_appg01_server": "^5.18.0",
-    "uu_apprepresentationg01": "^2.2.0"
+    "uu_apprepresentationg01": "^2.2.0",
+    "uu_beep_libg01": "file:../uu_beep_libg01-nodejs/uu_beep_libg01/uu_beep_libg01-0.1.0.tgz"
   },
   "devDependencies": {
     "uu_appg01_devkit": "^5.17.0",

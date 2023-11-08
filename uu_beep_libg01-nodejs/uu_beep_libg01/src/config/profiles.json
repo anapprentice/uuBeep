@@ -1,0 +1,31 @@
+{
+  "{asid}": {
+    "profileList": ["Public"],
+    "useCaseMap": {}
+  },
+  "*": {
+    "profileList": ["Public"],
+    "useCaseMap": {
+      "eventSource/initiate": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "eventSource/broadcast": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subscription/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subscription/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subscription/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      }
+    }
+  }
+}
