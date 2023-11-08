@@ -25,6 +25,29 @@
         "realization": "index.html",
         "httpMethod": "GET",
         "type": "UVE"
+      },
+      "eventSource/info": {
+        "realization": "api/controllers/EventSourceController.info",
+        "httpMethod": "GET",
+        "type": "CMD",
+        "produces": [
+          "text/event-stream"
+        ]
+      },
+      "event/trigger": {
+        "realization": "api/controllers/EventController.trigger",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "eventSource/trigger": {
+        "realization": "api/controllers/EventSourceController.trigger",
+        "httpMethod": "GET",
+        "type": "CMD"
+      },
+      "subscribe/create": {
+        "realization": "api/controllers/SubscribeController.create",
+        "httpMethod": "POST",
+        "type": "CMD"
       }
     }
   }
