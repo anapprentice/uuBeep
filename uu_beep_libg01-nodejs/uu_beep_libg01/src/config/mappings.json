@@ -4,7 +4,10 @@
       "eventSource/initiate": {
         "realization": "api/controllers/EventSourceController.initiate",
         "httpMethod": "GET",
-        "type": "CMD"
+        "type": "CMD",
+        "produces": [
+          "text/event-stream"
+        ]
       },
       "eventSource/broadcast": {
         "realization": "api/controllers/EventSourceController.broadcast",

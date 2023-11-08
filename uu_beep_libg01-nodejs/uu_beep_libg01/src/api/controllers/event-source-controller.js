@@ -1,24 +1,28 @@
 "use strict";
+const ConnectionService = require("../../components/connection-service");
 
 class EventSourceController {
   constructor() {
     this.activeConnections = [];
   }
 
-  initiate(ucEnv) {
-    // create active conncection
-
+  async initiate(ucEnv) {
     const res = ucEnv.getResponse().unwrap();
+
+    // create active connection
+    await ConnectionService.create(ucEnv);
     this.activeConnections.push(res);
 
     res.setHeader("Content-type", "text/event-stream");
     res.setHeader("Cache-Control", "no-cache");
     res.setHeader("Connection", "keep-alive");
 
-    res.on("close", () => {
+    res.on("close", async () => {
       const index = this.activeConnections.indexOf(res);
       if (index !== -1) {
+        // delete connection
         this.activeConnections.splice(index, 1);
+        await ConnectionService.delete(ucEnv);
       }
     });
 

@@ -4,5 +4,11 @@
       "MongoDB": "uu_beep_libg01:dao/SubscriptionMongo"
     },
     "maxNoi": 10000
+  },
+  "connection": {
+    "realizationMap": {
+      "MongoDB": "uu_beep_libg01:dao/ConnectionMongo"
+    },
+    "maxNoi": 10000
   }
 }
