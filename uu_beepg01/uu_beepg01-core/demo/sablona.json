@@ -1,0 +1,426 @@
+{
+  "id": "615c327a919be2002b8f92b3",
+  "code": "UuTArtifactCore",
+  "generation": 1,
+  "name": "uu_tg01-artifactcore",
+  "type": "uu5-lib",
+  "imageUri": "https://uuapp.plus4u.net/uu-bookkit-maing01/1a445498a55647d880098e13f2d9d239/getProductLogo",
+  "docUri": "https://uuapp.plus4u.net/uu-bookkit-maing01/1a445498a55647d880098e13f2d9d239/book",
+  "flsUri": "https://uuapp.plus4u.net/uu-flsg01-main/c19db790d1394db59b020ea6faecb08f/",
+  "version": "0.29.1",
+  "sourceUri": "https://cdn.plus4u.net/uu-tg01/0.29.1/uu_tg01-artifactcore.min.js",
+  "dependencyMap": {
+    "prop-types": "https://cdn.plus4u.net/libs/prop-types/15.7.2/prop-types.min.js",
+    "react": "https://cdn.plus4u.net/libs/react/16.14.0/react.min.js",
+    "react-dom": "https://cdn.plus4u.net/libs/react-dom/16.14.0/react-dom.min.js",
+    "uu5dndg01": "https://cdn.plus4u.net/uu-uu5dndg01/1.2.0/uu5dndg01.min.js",
+    "uu5g05": "https://cdn.plus4u.net/uu-uu5g05/1.25.3/uu5g05.min.js",
+    "uu5g05-elements": "https://cdn.plus4u.net/uu-uu5g05/1.25.3/uu5g05-elements.min.js",
+    "uu5g05-forms": "https://cdn.plus4u.net/uu-uu5g05/1.25.3/uu5g05-forms.min.js",
+    "uu5stringg01": "https://cdn.plus4u.net/uu-uu5stringg01/1.8.1/uu5stringg01.min.js",
+    "uu5tilesg02": "https://cdn.plus4u.net/uu-uu5tilesg02/2.11.0/uu5tilesg02.min.js",
+    "uu5tilesg02-controls": "https://cdn.plus4u.net/uu-uu5tilesg02/2.11.0/uu5tilesg02-controls.min.js",
+    "uu5tilesg02-elements": "https://cdn.plus4u.net/uu-uu5tilesg02/2.11.0/uu5tilesg02-elements.min.js",
+    "uu_appg01": "https://cdn.plus4u.net/uu-appg01/5.19.0/uu_appg01.min.js",
+    "uu_appg01_core": "https://cdn.plus4u.net/uu-appg01-core/5.19.0/uu_appg01_core.min.js",
+    "uu_appg01_oidc": "https://cdn.plus4u.net/uu-appg01-oidc/3.8.1/uu_appg01_oidc.min.js",
+    "uu_gdsg01-unicorn": "https://cdn.plus4u.net/uu-gdsg01/1.8.0/uu_gdsg01-unicorn.min.js",
+    "uu_i18ng01": "https://cdn.plus4u.net/uu-i18ng01/1.6.0/uu_i18ng01.min.js",
+    "uu_plus4u5g02": "https://cdn.plus4u.net/uu-plus4u5g02/1.24.1/uu_plus4u5g02.min.js",
+    "uu_plus4u5g02-elements": "https://cdn.plus4u.net/uu-plus4u5g02/1.24.1/uu_plus4u5g02-elements.min.js",
+    "uu_tg01": "https://cdn.plus4u.net/uu-tg01/0.29.1/uu_tg01.min.js",
+    "uu_tg01-elements": "https://cdn.plus4u.net/uu-tg01/0.29.1/uu_tg01-elements.min.js"
+  },
+  "resolvedDependencyMap": {
+    "prop-types": [
+      {
+        "version": "15.7.2",
+        "versionSpecifier": "15.7.2",
+        "uri": "https://cdn.plus4u.net/libs/prop-types/15.7.2/prop-types.min.js",
+        "familyList": [
+          "prop-types"
+        ],
+        "for": [
+          "uu5g05@1.25.3"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "react": [
+      {
+        "version": "16.14.0",
+        "versionSpecifier": "16.14.0",
+        "uri": "https://cdn.plus4u.net/libs/react/16.14.0/react.min.js",
+        "familyList": [
+          "react"
+        ],
+        "for": [
+          "react-dom@16.14.0",
+          "uu5g05@1.25.3"
+        ],
+        "singleton": true,
+        "latestMajor": false
+      }
+    ],
+    "react-dom": [
+      {
+        "version": "16.14.0",
+        "versionSpecifier": "16.14.0",
+        "uri": "https://cdn.plus4u.net/libs/react-dom/16.14.0/react-dom.min.js",
+        "familyList": [
+          "react-dom"
+        ],
+        "for": [
+          "uu5g05@1.25.3"
+        ],
+        "singleton": true,
+        "latestMajor": false
+      }
+    ],
+    "uu5dndg01": [
+      {
+        "version": "1.2.0",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-uu5dndg01/1.2.0/uu5dndg01.min.js",
+        "familyList": [
+          "uu5dndg01"
+        ],
+        "for": [
+          "uu5tilesg02-controls@2.11.0",
+          "uu5tilesg02-elements@2.11.0"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu5g05": [
+      {
+        "version": "1.25.3",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-uu5g05/1.25.3/uu5g05.min.js",
+        "familyList": [
+          "uu5g05",
+          "uu5g05-bricks-support",
+          "uu5g05-browser-compatibility",
+          "uu5g05-dev",
+          "uu5g05-editing",
+          "uu5g05-elements",
+          "uu5g05-forms",
+          "uu5g05-test"
+        ],
+        "for": [
+          "uu5dndg01@1.2.0",
+          "uu5g05-elements@1.25.3",
+          "uu5g05-forms@1.25.3",
+          "uu5tilesg02-controls@2.11.0",
+          "uu5tilesg02-elements@2.11.0",
+          "uu5tilesg02@2.11.0",
+          "uu_plus4u5g02-elements@1.24.1",
+          "uu_plus4u5g02@1.24.1",
+          "uu_tg01-artifactcore@0.29.1",
+          "uu_tg01-elements@0.29.1",
+          "uu_tg01@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu5g05-elements": [
+      {
+        "version": "1.25.3",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-uu5g05/1.25.3/uu5g05-elements.min.js",
+        "familyList": [
+          "uu5g05",
+          "uu5g05-bricks-support",
+          "uu5g05-browser-compatibility",
+          "uu5g05-dev",
+          "uu5g05-editing",
+          "uu5g05-elements",
+          "uu5g05-forms",
+          "uu5g05-test"
+        ],
+        "for": [
+          "uu5dndg01@1.2.0",
+          "uu5g05-forms@1.25.3",
+          "uu5tilesg02-controls@2.11.0",
+          "uu5tilesg02-elements@2.11.0",
+          "uu_plus4u5g02-elements@1.24.1",
+          "uu_tg01-artifactcore@0.29.1",
+          "uu_tg01-elements@0.29.1",
+          "uu_tg01@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu5g05-forms": [
+      {
+        "version": "1.25.3",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-uu5g05/1.25.3/uu5g05-forms.min.js",
+        "familyList": [
+          "uu5g05",
+          "uu5g05-bricks-support",
+          "uu5g05-browser-compatibility",
+          "uu5g05-dev",
+          "uu5g05-editing",
+          "uu5g05-elements",
+          "uu5g05-forms",
+          "uu5g05-test"
+        ],
+        "for": [
+          "uu5tilesg02-controls@2.11.0",
+          "uu5tilesg02-elements@2.11.0",
+          "uu_tg01-artifactcore@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu5stringg01": [
+      {
+        "version": "1.8.1",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-uu5stringg01/1.8.1/uu5stringg01.min.js",
+        "familyList": [
+          "uu5stringg01"
+        ],
+        "for": [
+          "uu5g05@1.25.3"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu5tilesg02": [
+      {
+        "version": "2.11.0",
+        "versionSpecifier": "2.x",
+        "uri": "https://cdn.plus4u.net/uu-uu5tilesg02/2.11.0/uu5tilesg02.min.js",
+        "familyList": [
+          "uu5tilesg02",
+          "uu5tilesg02-controls",
+          "uu5tilesg02-elements"
+        ],
+        "for": [
+          "uu5tilesg02-controls@2.11.0",
+          "uu5tilesg02-elements@2.11.0",
+          "uu_tg01-artifactcore@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu5tilesg02-controls": [
+      {
+        "version": "2.11.0",
+        "versionSpecifier": "2.x",
+        "uri": "https://cdn.plus4u.net/uu-uu5tilesg02/2.11.0/uu5tilesg02-controls.min.js",
+        "familyList": [
+          "uu5tilesg02",
+          "uu5tilesg02-controls",
+          "uu5tilesg02-elements"
+        ],
+        "for": [
+          "uu_tg01-artifactcore@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu5tilesg02-elements": [
+      {
+        "version": "2.11.0",
+        "versionSpecifier": "2.x",
+        "uri": "https://cdn.plus4u.net/uu-uu5tilesg02/2.11.0/uu5tilesg02-elements.min.js",
+        "familyList": [
+          "uu5tilesg02",
+          "uu5tilesg02-controls",
+          "uu5tilesg02-elements"
+        ],
+        "for": [
+          "uu5tilesg02-controls@2.11.0",
+          "uu_tg01-artifactcore@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu_appg01": [
+      {
+        "version": "5.19.0",
+        "versionSpecifier": "5.x",
+        "uri": "https://cdn.plus4u.net/uu-appg01/5.19.0/uu_appg01.min.js",
+        "familyList": [
+          "uu_appg01",
+          "uu_appg01_server-client"
+        ],
+        "for": [
+          "uu_plus4u5g02@1.24.1",
+          "uu_tg01@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu_appg01_core": [
+      {
+        "version": "5.19.0",
+        "versionSpecifier": "5.x",
+        "uri": "https://cdn.plus4u.net/uu-appg01-core/5.19.0/uu_appg01_core.min.js",
+        "familyList": [
+          "uu_appg01_core",
+          "uu_appg01_core-appclient"
+        ],
+        "for": [
+          "uu_appg01@5.19.0",
+          "uu_appg01_oidc@3.8.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu_appg01_oidc": [
+      {
+        "version": "3.8.1",
+        "versionSpecifier": "3.x",
+        "uri": "https://cdn.plus4u.net/uu-appg01-oidc/3.8.1/uu_appg01_oidc.min.js",
+        "familyList": [
+          "uu_appg01_oidc",
+          "uu_appg01_oidc-cmd",
+          "uu_appg01_oidc-loader"
+        ],
+        "for": [
+          "uu_appg01@5.19.0",
+          "uu_plus4u5g02@1.24.1"
+        ],
+        "singleton": true,
+        "latestMajor": false
+      }
+    ],
+    "uu_gdsg01-unicorn": [
+      {
+        "version": "1.8.0",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-gdsg01/1.8.0/uu_gdsg01-unicorn.min.js",
+        "familyList": [
+          "uu_gdsg01",
+          "uu_gdsg01-unicorn"
+        ],
+        "for": [
+          "uu5g05-elements@1.25.3"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu_i18ng01": [
+      {
+        "version": "1.6.0",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-i18ng01/1.6.0/uu_i18ng01.min.js",
+        "familyList": [
+          "uu_i18ng01"
+        ],
+        "for": [
+          "uu5g05-elements@1.25.3",
+          "uu5g05-forms@1.25.3",
+          "uu_tg01-elements@0.29.1",
+          "uu_tg01@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu_plus4u5g02": [
+      {
+        "version": "1.24.1",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-plus4u5g02/1.24.1/uu_plus4u5g02.min.js",
+        "familyList": [
+          "uu_plus4u5g02",
+          "uu_plus4u5g02-app",
+          "uu_plus4u5g02-elements",
+          "uu_plus4u5g02-legacy"
+        ],
+        "for": [
+          "uu_plus4u5g02-elements@1.24.1",
+          "uu_tg01-artifactcore@0.29.1",
+          "uu_tg01-elements@0.29.1",
+          "uu_tg01@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu_plus4u5g02-elements": [
+      {
+        "version": "1.24.1",
+        "versionSpecifier": "1.x",
+        "uri": "https://cdn.plus4u.net/uu-plus4u5g02/1.24.1/uu_plus4u5g02-elements.min.js",
+        "familyList": [
+          "uu_plus4u5g02",
+          "uu_plus4u5g02-app",
+          "uu_plus4u5g02-elements",
+          "uu_plus4u5g02-legacy"
+        ],
+        "for": [
+          "uu_tg01-artifactcore@0.29.1",
+          "uu_tg01-elements@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu_tg01": [
+      {
+        "version": "0.29.1",
+        "versionSpecifier": "0.29.1",
+        "uri": "https://cdn.plus4u.net/uu-tg01/0.29.1/uu_tg01.min.js",
+        "familyList": [
+          "uu_tg01",
+          "uu_tg01-activitycore",
+          "uu_tg01-artifactcore",
+          "uu_tg01-bricks",
+          "uu_tg01-elements",
+          "uu_tg01-explorer",
+          "uu_tg01-forms",
+          "uu_tg01-structurecore"
+        ],
+        "for": [
+          "uu_tg01-artifactcore@0.29.1",
+          "uu_tg01-elements@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ],
+    "uu_tg01-artifactcore": [
+      {
+        "version": "0.29.1",
+        "versionSpecifier": "0.29.1",
+        "uri": "https://cdn.plus4u.net/uu-tg01/0.29.1/uu_tg01-artifactcore.min.js",
+        "familyList": [
+          "uu_tg01",
+          "uu_tg01-activitycore",
+          "uu_tg01-artifactcore",
+          "uu_tg01-bricks",
+          "uu_tg01-elements",
+          "uu_tg01-explorer",
+          "uu_tg01-forms",
+          "uu_tg01-structurecore"
+        ],
+        "for": [],
+        "latestMajor": true
+      }
+    ],
+    "uu_tg01-elements": [
+      {
+        "version": "0.29.1",
+        "versionSpecifier": "0.29.1",
+        "uri": "https://cdn.plus4u.net/uu-tg01/0.29.1/uu_tg01-elements.min.js",
+        "familyList": [
+          "uu_tg01",
+          "uu_tg01-activitycore",
+          "uu_tg01-artifactcore",
+          "uu_tg01-bricks",
+          "uu_tg01-elements",
+          "uu_tg01-explorer",
+          "uu_tg01-forms",
+          "uu_tg01-structurecore"
+        ],
+        "for": [
+          "uu_tg01-artifactcore@0.29.1"
+        ],
+        "latestMajor": true
+      }
+    ]
+  },
+  "uuAppErrorMap": {}
+}

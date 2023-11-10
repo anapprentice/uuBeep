@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UuBeepCore.DetailView Demo</title>
+
+    <script src="https://cdn.plus4u.net/uu-uu5loaderg01/1.0.0/uu5loaderg01.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.plus4u.net/uu-uu5g05/1.0.0/assets/example-config.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.plus4u.net/uu-plus4u5g02/1.0.0/assets/example-config.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.plus4u.net/uu-beepg01/0.0.0/assets/example-config.js" crossorigin="anonymous"></script>
+
+    <style>
+      body {
+        padding: 16px 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="renderHere"></div>
+
+    <script type="text/babel">
+      import { Utils, createComponent } from "uu5g05";
+      import UuBeepCore from "uu_beepg01-core";
+      import Uu5Elements from "uu5g05-elements";
+      import Plus4U5 from "uu_plus4u5g02";
+      import Plus4U5App from "uu_plus4u5g02-app";
+
+      const Page = createComponent({
+        render() {
+          return (
+            <main>
+              <h4>Default props</h4>
+              <Plus4U5.SpaProvider skipAppWorkspaceProvider initialLanguageList={["en", "cs"]}>
+                <Uu5Elements.ModalBus>
+                  <Plus4U5App.Spa>
+                    <UuBeepCore.Beeper.Detail baseUri="http://localhost:8080/uu-beep-maing01/22222222222222222222222222222222" />
+                  </Plus4U5App.Spa>
+                </Uu5Elements.ModalBus>
+              </Plus4U5.SpaProvider>
+            </main>
+          );
+        },
+      });
+
+      Utils.Dom.render(<Page />, document.getElementById("renderHere"));
+    </script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 //@@viewOn:imports
-import { Utils, createVisualComponent, useSession, Lsi } from "uu5g05";
+import { Utils, createVisualComponent, useSession, Lsi, DynamicLibraryComponent } from "uu5g05";
 import Uu5Elements from "uu5g05-elements";
 import Plus4U5Elements from "uu_plus4u5g02-elements";
 import { withRoute } from "uu_plus4u5g02-app";
@@ -8,6 +8,8 @@ import Config from "./config/config.js";
 import WelcomeRow from "../bricks/welcome-row.js";
 import RouteBar from "../core/route-bar.js";
 import importLsi from "../lsi/import-lsi.js";
+// import UuBeepCore from "uu_beepg01-core/target/dist-root";
+// import UuBeepCore from "uu_beepg01-core";
 //@@viewOff:imports
 
 //@@viewOn:constants
@@ -52,6 +54,8 @@ let Home = createVisualComponent({
     return (
       <div {...attrs}>
         <RouteBar />
+        <DynamicLibraryComponent uu5Tag="UuBeepCore.Beeper.Detail" props={{baseUri:"http://localhost:8080/uu-beep-maing01/22222222222222222222222222222222"}} />
+        {/*<UuBeepCore.Beeper.Detail baseUri="http://localhost:8080/uu-beep-maing01/22222222222222222222222222222222" />*/}
         <WelcomeRow left={<Plus4U5Elements.PersonPhoto size="xl" borderRadius="none" />}>
           <Uu5Elements.Text category="story" segment="heading" type="h2">
             <Lsi import={importLsi} path={["Home", "welcome"]} />

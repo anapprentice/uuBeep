@@ -3,7 +3,7 @@ const { UuObjectDao } = require("uu_appg01_server").ObjectStore;
 
 class SubscriptionMongo extends UuObjectDao {
   async createSchema() {
-    await super.createIndex({ awid: 1 });
+    // await super.createIndex({ awid: 1 });
     await super.createIndex({ awid: 1, uid: 1 }, { unique: true });
   }
 

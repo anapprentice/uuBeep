@@ -9,6 +9,11 @@ class ConnectionAbl {
   }
 
   async list(awid, dtoIn) {
+    if (dtoIn.pageInfo) {
+      for (let [key, value] of Object.entries(dtoIn.pageInfo)) {
+        dtoIn.pageInfo[key] = Number(value);
+      }
+    }
     return this.dao.list(awid, dtoIn.pageInfo);
   }
 }

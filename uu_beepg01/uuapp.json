@@ -1,0 +1,121 @@
+{
+  "product": "uu_beepg01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "docUri": "https://uuapp.plus4u.net/uu-bookkit-maing01/05ecbf4e8bca405290b1a6d4cee8813a/book/page?code=Uu5ElementsTouchButton",
+  "flsUri": "https://uuapp.plus4u.net/uu-flsg01-main/6a0483ddd29f4f998741d9b452cca9eb",
+  "slsUri": "",
+  "imageUri": "https://uuapp.plus4u.net/uu-bookkit-maing01/05ecbf4e8bca405290b1a6d4cee8813a/book/page?code=Uu5ElementsTouchButton",
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null,
+      "resourcePoolUri": "----- VALUE REQUIRED -----"
+    }
+  },
+  "uu_beepg01": {
+    "namespace": "UuBeep",
+    "sourceUri": "https://cdn.plus4u.net/uu-beepg01/%s/uu_beepg01.min.js",
+    "componentList": [
+      {
+        "code": "UuBeep.Core.Beeper",
+        "name": "Beeper",
+        "tagList": [
+          "UuBeep",
+          "Core",
+          "Beeper"
+        ],
+        "docCode": "UuBeepCoreBeeper",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuBeep.Core.Beeper />"
+      }
+    ]
+  },
+  "uu_beepg01-core": {
+    "namespace": "UuBeepCore",
+    "sourceUri": "https://cdn.plus4u.net/uu-beepg01/%s/uu_beepg01-core.min.js",
+    "componentList": [
+      {
+        "code": "UuBeepCore.Beeper",
+        "name": "Beeper",
+        "tagList": [
+          "UuBeepCore",
+          "Beeper"
+        ],
+        "docCode": "UuBeepCoreBeeper",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuBeepCore.Beeper />"
+      },
+      {
+        "code": "UuBeepCore.Beeper.SubscriptionProvider",
+        "name": "SubscriptionProvider",
+        "tagList": [
+          "UuBeepCore",
+          "Beeper",
+          "SubscriptionProvider"
+        ],
+        "docCode": "UuBeepCoreBeeperSubscriptionProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuBeepCore.Beeper.SubscriptionProvider />"
+      },
+      {
+        "code": "UuBeepCore.Beeper.ConnectionProvider",
+        "name": "ConnectionProvider",
+        "tagList": [
+          "UuBeepCore",
+          "Beeper",
+          "ConnectionProvider"
+        ],
+        "docCode": "UuBeepCoreBeeperConnectionProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuBeepCore.Beeper.ConnectionProvider />"
+      },
+      {
+        "code": "UuBeepCore.Beeper.Content",
+        "name": "Content",
+        "tagList": [
+          "UuBeepCore",
+          "Beeper",
+          "Content"
+        ],
+        "docCode": "UuBeepCoreBeeperContent",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuBeepCore.Beeper.Content />"
+      },
+      {
+        "code": "UuBeepCore.Beeper.ConnectionModal",
+        "name": "ConnectionModal",
+        "tagList": [
+          "UuBeepCore",
+          "Beeper",
+          "ConnectionModal"
+        ],
+        "docCode": "UuBeepCoreBeeperConnectionModal",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuBeepCore.Beeper.ConnectionModal />"
+      }
+    ]
+  }
+}
